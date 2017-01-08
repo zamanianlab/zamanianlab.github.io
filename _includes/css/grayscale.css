@@ -64,6 +64,15 @@ a {
     transition: all .2s ease-in-out;
 }
 
+
+/* MZ: changing coloring scheme for code tags*/
+
+code {
+    color: #c46368;
+    background-color: white;
+}
+
+
 a:hover,
 a:focus {
     text-decoration: none;
