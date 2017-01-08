@@ -78,7 +78,7 @@
     <div class="intro-body">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-md-offset-2" style="color: white; background-color: white; opacity: 0.7; outline: white dashed;">
+                <div class="col-md-8 col-md-offset-2" style="color: white; background-color: white; opacity: 0.7;">
                         <p class="intro-text" style="font-size: 2em; color:black;"><b>Open January 2017.</b> <br>
                         <a href="#contact" class="btn btn-circle page-scroll"><i class="fa fa-angle-double-down animated"> </i></a> 
                         </p>
@@ -250,12 +250,16 @@
         <div id="map" style="width:55%;float:left;text-align:left;">
             <script>
                 function initMap() {
-                    var mapDiv = document.getElementById('map');
-                    var map = new google.maps.Map(mapDiv, {
-                        center: {lat: 43.075346, lng: -89.420287},
-                        zoom: 15
+                    var uluru = {lat: 43.075763, lng: -89.414974};
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                        zoom: 15,
+                        center: uluru
                     });
-                  }
+                    var marker = new google.maps.Marker({
+                        position: uluru,
+                        map: map
+                    });
+                }
             </script>
             <script async defer
                     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHe4yT3lMCpceXOIbeU5e3RhKrso3u5wM&callback=initMap">
