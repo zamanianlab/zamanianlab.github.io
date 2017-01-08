@@ -69,7 +69,7 @@ a {
 
 code {
     color: #c46368;
-    background-color: none;
+    background-color: rgba(255,255,255,.3);
 }
 
 
