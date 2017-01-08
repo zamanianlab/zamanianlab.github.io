@@ -155,7 +155,7 @@ a:focus {
     }
 
     .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid rgba(255,255,255,.3);
+        border-bottom: 2px solid #c46368; /* MZ */
     }
 }
 
