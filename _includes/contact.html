@@ -1,0 +1,52 @@
+<!-- Contact Section -->
+<style>
+
+#map {
+    height: 275px;
+}
+
+</style>
+
+<section id="contact" class="container content-section text-center">
+    <div class="row">
+        <h2>Contact</h2>
+
+        <div class="col-lg-8 col-lg-offset-2" style = "text-align: left;">
+            <p> <code>Hiring:</code> We are actively looking to recruit highly motivated research specialists, graduate students, and postdocs who share our scientific curiosity and interests. Prospective research specialists and postdocs should contact the PI directly. Prospective graduate students should gain admission to one of the graduate programs for which the PI serves as a trainer. <!-- These include the <a href="https://www.vetmed.wisc.edu/ms-phd/">Comparative Biomedical Sciences (CBMS) Graduate Program </a>, the <a href="https://microbiology.wisc.edu/">Microbiology Doctoral Training Program</a>, and the <a href="https://www.cmp.wisc.edu/">Cellular & Molecular Pathology (CMP) Graduate Program</a>. Students may be eligible for NIH training grant support through the <a href="https://www.vetmed.wisc.edu/pbs/cmp/">Parasitology and Vector Biology Training Program</a> or the <a href="http://btp.wisc.edu/">Biotechnology Training Program</a>. --> </p> 
+        </div>
+
+        <div class="col-lg-8 col-lg-offset-2" style = "text-align: left;">
+        <div id="map" style="width:55%;float:left;text-align:left;">
+            <script>
+                function initMap() {
+                    var mapDiv = document.getElementById('map');
+                    var map = new google.maps.Map(mapDiv, {
+                        center: {lat: 43.075346, lng: -89.420287},
+                        zoom: 15
+                    });
+                  }
+            </script>
+            <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHe4yT3lMCpceXOIbeU5e3RhKrso3u5wM&callback=initMap">
+            </script>
+        </div>
+        
+        <div id="map" style="width:40%;float:right; text-align:left;">
+            <b>Lab Phone:</b> +1 (608) --- - ----</br>
+            <b>PI Phone:</b> +1 (608) --- - ----</br>
+            <b>PI E-mail:</b> <a href="mailto:mzamanian@wisc.edu"> mzamanian at wisc.edu </a>  </br>
+                        </br> 
+            <b>Address:</b>  </br>
+            </b> PI Office: Room 205 </br> 
+            Main Lab: Room 230 </br>
+            Hanson Biomedical Sciences Building </br>
+            University of Wisconsin-Madison </br>
+            1656 Linden Drive </br>
+            Madison, WI 53706-1581 </br>
+            
+        </div>
+        </div>
+
+    </div>
+
+</section>

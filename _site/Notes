@@ -1,0 +1,31 @@
+
+default.html: defines ordering
+	head.html (don't touch)
+	nav.html
+	header.html
+	research.html / white bg
+	people.html / black bg
+	pubs.html / white bg
+	tools.html / black bg
+	contact.html / white bg
+	map.html (comment out)
+	footer.html 
+	js.html (don't touch)
+	- within each html, section id = "<>", where <> = html name
+
+nav.html: defines top left logo and nav-bar link list
+	Research (research)
+	People (people)
+	Pubs (pubs)
+	Tools (tools)
+	Contact (contact)
+
+header.html: site title/description (defined in yml) + animated down arrow
+modified grayscale.js to remove map formatting info
+
+Manually edit (same starting template):
+research.html
+people.html
+pubs.html
+tools.html
+contact.html
