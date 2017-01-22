@@ -202,10 +202,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #000; /* MZ #FFF */
+    border: 2px solid #FFF; /* MZ #FFF */
     border-radius: 35px;
     font-size: 40px;
-    color: #000; /* MZ #FFF */
+    color: #FFF; /* MZ #FFF */
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -215,7 +215,7 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 5;
-    color: #000; /* MZ #FFF */
+    color: #FFF; /* MZ #FFF */
     background: rgba(197,5,12,.8);
 }
 
