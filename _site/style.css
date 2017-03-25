@@ -165,10 +165,10 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    opacity: 0.7; /* MZ */
+    /* opacity: 0.85;  MZ */
     color: #fff;
-    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: #ffffff;
+    background: url(/img/intro-bg-ds.jpg) no-repeat bottom center scroll;*/
+    background-color: *#ffffff;*; /*#ffffff;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -296,7 +296,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 200px;
+        padding-top: 100px; /* For whitespace at beginning of each section - MZ */
     }
 
     .download-section {

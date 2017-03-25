@@ -2,8 +2,12 @@
 title: Zamanian Lab, University of Wisconsin-Madison
 email: 
 url: https://zamanianlab.github.io
-description: ""
+description: "Laboratory of Mostafa Zamanian, University of Wisconsin-Madison"
 
+#Gems
+gems:
+  - jekyll-feed
+  
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primarybg: '#ffffff'
