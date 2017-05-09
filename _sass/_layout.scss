@@ -40,11 +40,11 @@ img {
 }
 
 .p20{
-    padding: 10px 0;
+    padding: 5px 0;
 }
 .navbar-brand {
     font-size: 1em;
-    padding: 15px;
+    padding: 5px;
     @media screen and (max-width: $on-palm) {
         font-size: 1em;
     }
@@ -67,6 +67,12 @@ img {
 
 footer {
     border-top: 1px solid $grey-color-light;
+    position: fixed;
+    background: white;
+    z-index: 100;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
 

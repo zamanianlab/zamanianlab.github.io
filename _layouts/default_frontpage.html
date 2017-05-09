@@ -8,17 +8,16 @@ layout: compress
   {% include head.html %}
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   
-  <body>
+  <body style = "background-image: url(/images/Madison.jpg); background-size: cover; background-attachment: fixed; background-repeat: no-repeat; background-position: top; background-position: fixed;" >
 
     {% include header.html %}
-    <br><br><br><br> <!-- MZ .navbar-default css settings changed to fixed position, causing upward shift of titles, this line-breaks compensate for that difference -->
+    
     <div class="container">
       <div class="wrapper">
         {{ content }}
       </div>
     </div>
-    <br>
-    <br>
+
 
     {% include footer.html %}
     
