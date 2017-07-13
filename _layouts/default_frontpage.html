@@ -11,7 +11,8 @@ layout: compress
   <body style = "background-image: url(/images/main/Madison.jpg); background-size: cover; background-attachment: fixed; background-repeat: no-repeat; background-position: top; background-position: fixed;" >
 
     {% include header.html %}
-    
+    <br><br><br> <!-- MZ .navbar-default css settings changed to fixed position, causing upward shift of titles, this line-breaks compensate for that difference -->
+
     <div class="container">
       <div class="wrapper">
         {{ content }}
@@ -19,7 +20,7 @@ layout: compress
     </div>
 
 
-    {% include footer.html %}
+    {% include footer_frontpage.html %}
     
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
