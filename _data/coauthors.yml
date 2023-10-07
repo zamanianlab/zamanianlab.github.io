@@ -1,34 +1,66 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+#staff
+"Vaccaro":
+  - firstname: ["Kathy", "K"]
+    url: ""
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Dinguirard":
+  - firstname: ["Nathalie", "N"]
+    url: ""
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Heimark":
+  - firstname: ["Zachary", "Zachary W", "ZW"]
+    url: ""
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Nunn":
+  - firstname: ["Leonardo", "Leonardo R", "LR"]
+    url: ""
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Palma-Cuero":
+  - firstname: ["Monica"]
+    url: ""
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+#postodcs
+"Wheeler":
+  - firstname: ["Nicolas J", "Nicolas", "Nicolas James", "Nic", "NJ"]
+    url: https://scholar.google.com/citations?hl=en&user=GTUkYg0AAAAJ
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Airs":
+  - firstname: ["Paul", "Paul M", "PM"]
+    url: https://scholar.google.com/citations?hl=en&user=PVoa0PwAAAAJ
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Collins":
+  - firstname: ["James", "James B", "JB"]
+    url: ""
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+
+#phd students
+"Ryan":
+  - firstname: ["Kaetlyn T", "Kaetlyn","KT", "Katie T"]
+    url: https://scholar.google.com/citations?user=xHLAYTIAAAAJ
+
+"Gallo":
+  - firstname: ["Kendra", "Kendra J", 'KJ']
+    url: https://scholar.google.com/citations?hl=en&user=TPDaj3AAAAAJ
+
+"Dahmer":
+  - firstname: ["Kendra", "Kendra J", 'KJ']
+    url: https://scholar.google.com/citations?hl=en&user=TPDaj3AAAAAJ
+
+"Henthorn": 
+  - firstname: ["Clair", "Clair R", "CR"]
+    url: https://scholar.google.com/citations?hl=en&user=bsbyaLQAAAAJ
+
+"Rehborg":
+  - firstname: ["Elena", "Elena G", "EG", "Elena J G"]
+    url: ""
+
+
+#undergrads
+
+"Mann":
+  - firstname: ["Alexis"]
+    url: ""
+
+"Elmi":
+  - firstname: ["Abdifatah", "Abdifatah M", "AM"]
+    url: ""

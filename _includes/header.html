@@ -20,12 +20,14 @@
               {{- site.title -}}
             {%- endif -%}
           </a>
+          
           {%- elsif site.enable_navbar_social -%}
           <!-- Social Icons -->
-          <div class="navbar-brand social">
-            {% include social.html %}
+          <div class="navbar-brand social" style = "display: inline-block;overflow:visible;">
+            <!-- {% include social.html %}  MZ / toggle the social option in the yaml because it's great placing for images--> 
           </div>
           {% endif %}
+
           <!-- Navbar Toggle -->
           <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
@@ -35,8 +37,8 @@
           </button>
 
           <div class="collapse navbar-collapse text-right" id="navbarNav">
+            
             <ul class="navbar-nav ml-auto flex-nowrap">
-
               {%- for page in site.pages -%}
                 {% if page.permalink == '/' %}
                   {% assign about_title = page.title %}
@@ -52,6 +54,7 @@
                 </a>
               </li>
               {% if site.blog_nav_title %}
+              
               <!-- Blog -->
               <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
                 <a class="nav-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
@@ -94,6 +97,8 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
+              <!-- MZ LabDocs link --> 
+              <li class="nav-item"><a class="nav-link" target="_self" href="https://www.zamanianlab.org/ZamanianLabDocs/">labdocs</a></li>
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->

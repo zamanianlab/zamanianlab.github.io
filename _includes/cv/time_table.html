@@ -6,6 +6,15 @@
             <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
               <table class="table-cv">
                 <tbody>
+                  <!-- MZ add profile photos -->
+                  <tr>
+                    {%- if content.portrait -%}
+                    <td>
+                      <img class="img" src="../assets/img/people/{{ content.portrait }}" width="75px" alt="">
+                    </td>
+                    {% endif %}
+                  </tr>
+                  <!-- MZ end-->
                   <tr>
                     <td>
                       <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">{{ content.year }}</span>
@@ -23,7 +32,8 @@
               
             </div>
           {% endif %}
-          <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+
+          <div class="col-xs-10 cl-sm-10 col-md-10 mt-10 mt-md-10">
             {% if content.title %}
             <h6 class="title font-weight-bold ml-1 ml-md-4">{{content.title}}</h6>
             {% endif %}
@@ -42,8 +52,33 @@
                 <td class="department">{{content.department}}</td>
               </tr>
               {% endif %}
+            
+              <!-- MZ added icons for email, google scholar, github, orcid -->
+              <tr>
+                <td >
+                  {%- if content.email -%}
+                  <a href="mailto:{{ content.email | encode_email }}" title="email"><i class="fas fa-envelope"></i></a>
+                  {% endif %}
+                </td>
+                <td>
+                  {%- if content.gscholar -%}
+                  <a href="https://scholar.google.com/citations?user={{ content.gscholar }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+                  {% endif %}
+                  {%- if content.orcid -%}
+                  <a href="https://orcid.org/{{ content.orcid }}" title="ORCID"><i class="ai ai-orcid"></i></a>
+                  {% endif %}
+                  {%- if content.github -%}
+                  <a href="https://github.com/{{ content.github }}" title="GitHub"><i class="fab fa-github"></i></a>
+                  {% endif %}
+                  {% if content.cv_url %}
+                  &nbsp;&nbsp;|&nbsp;&nbsp;<a href="{{ content.cv_url }}" target="_blank" title="CV">cv <i class="fas fa-file-pdf"></i></a>
+                  {% endif %}
+                </td>
+              </tr>
+            <!-- MZ end -->
             </tbody>
-            </table>
+          </table>
+            
             {% endif %}
             {% if content.maindescription %}
               <div class="ml-1 ml-md-4 ">{{ content.maindescription }}</div>

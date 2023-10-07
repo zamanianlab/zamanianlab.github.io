@@ -1,97 +1,236 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
 
-- title: Education
+#use time-table for everything (change time_table.html to achieve the following)
+# add e-mail, github, google scholar, and CV icon buttons (done)
+# use location to indicate home town
+# add profile photo as circle right above the 'year' on the left
+# use institution to define role and department to indicate program of study or job title
+# use the department to indicate bio / research description (but change name)
+
+- title:
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Mostafa Zamanian
+      institution: Associate Professor
+      department: Pathobiological Sciences
+      location: Ames, IA
+      year: PI
+      email: mzamanian@wisc.edu
+      gscholar: SPTr3zoAAAAJ
+      orcid: 0000-0001-9233-1760
+      github: mzamanian
+      cv_url: http://www.zamanianlab.org
+      portrait: mzamanian.jpg
+      description: 
 
-- title: Experience
+# STAFF
+- title: Professional Staff
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Kathy Vaccaro
+      institution: Research Specialist
+      department: Pathobiological Sciences
+      location: West Bend, WI
+      year: 2018 - 
+      email: kvaccaro@wisc.edu
+      gscholar: VNgQPmgAAAAJ
+      orcid:
+      github: vaccarok
+      cv_url:
+      portrait: kvaccaro.jpg
+      description: 
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Nathalie Dinguirard
+      institution: Research Scientist
+      department: Pathobiological Sciences
+      location: Q, France
+      year: 2023 -
+      email: ndinguirard@wisc.edu
+      gscholar: d3RS4r4AAAAJ
+      orcid:
+      github: nmdinguirard
+      cv_url:
+      portrait: ndinguirard.jpg
+      description: 
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    - title: Lenny Nunn
+      institution: Research Intern
+      department: Pathobiological Sciences
+      location: Apple Valley, MN
+      year: 2022 -
+      email: lrnunn@wisc.edu
+      gscholar: Pj6H7t8AAAAJ
+      orcid:
+      github: lrnunn
+      cv_url:
+      portrait: lnunn.jpg
+      description: 
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+# GS AND PD
+- title: Grad Students and Postdocs
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Clair Henthorn
+      institution: PhD Student
+      department: CBMS
+      location: Onalaska, WI
+      year: 2020 - 
+      email: chenthorn@wisc.edu
+      gscholar: bsbyaLQAAAAJ
+      orcid: 0000-0002-0224-7336
+      github: chenthorn
+      cv_url: https://drive.google.com/file/d/1eGO9GmeNFyC3-tX14267TJEeKAt72-s-/view?usp=drive_link
+      portrait: chenthorn.jpg
+      description: 
 
-- title: Honors and Awards
+    - title: Katie Ryan
+      institution: PhD Student
+      department: CMP
+      location: Wake Forest, NC
+      year: 2020 - 
+      email: ktryan2@wisc.edu
+      gscholar: xHLAYTIAAAAJ
+      orcid: 0000-0002-2051-7969
+      github: ktryan23
+      cv_url:
+      portrait: kryan.jpg
+      description: 
+
+    - title: JB Collins
+      institution: Postdoc (joint)
+      department: Northwestern University
+      location: Colbert, GA
+      year: 2021 - 
+      email: jcollins32@wisc.edu
+      gscholar:
+      orcid: 
+      github:
+      cv_url:
+      portrait: jbcollins.jpg
+      description: 
+
+    - title: Elena Rehborg
+      institution: PhD Student
+      department: MDTP
+      location: Lakeville, MN
+      year: 2022 - 
+      email: egarncarz@wisc.edu
+      gscholar: PPcp5KcAAAAJ
+      orcid: 0000-0002-9727-5857
+      github: ejgrehborg
+      cv_url:
+      portrait: egarncarz.jpg
+      description: 
+
+    - title: Sebastián Díaz
+      institution: GHI Postdoc
+      department: Universidad Nacional de Colombia
+      location: Medellin, CO
+      year: 2023 - 
+      email: sediazz@unal.edu.co
+      gscholar: xbsJLz8AAAAJ
+      orcid:
+      github:
+      cv_url:
+      portrait: sdiaz.jpg
+      description: 
+
+# UGs
+- title: Undergraduates
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
+    - title: Sydney Oerter
+      location: Shorewood, WI
+      year: 2022 - 
+      department: Biology
+      portrait: soerter.jpg
+    - title: Greta Hiltgen
+      location: Appleton, WI
+      year: 2023 - 
+      department: Biology
+      portrait: ghiltgen.jpg
+    - title: Natalia Betancourt
+      location: Cali, CO
+      year: 2023 - 
+      department: Biochemistry and Global Health
+      portrait: nbetancourt.jpg
+            
+# ALUMNI - Trainees / Staff
+- title: Alumni / Trainees and Staff
+  type: time_table
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Kendra Dahmer
+      year: 2018 - 2023
+      department: CBMS PhD
+      institution: Postdoc, University of California-Berkeley
+      portrait: 
+    - title: Monica Palma
+      year: 2022
+      department: GHI Visiting Scholar
+      portrait: 
+    - title: Nic Wheeler
+      year: 2017 - 2022
+      department: Postdoctoral Fellow
+      institution: <a href="https://wheelerlab.bio/">Assistant Professor</a>, University of Wisconsin-Eau Claire
+      portrait: 
+    - title: Zach Heimark
+      year: 2018 - 2020
+      department: Research Intern
+      portrait: 
+    - title: Paul Airs
+      year: 2018 - 2010
+      department: Postdoctoral Fellow
+      institution: Fellow, Cambridge University
+    - title: Divyaa Srinivasan
+      year: 2017
+      department: Research Intern
+      institution: PhD student, Florida State
 
-- title: Other Interests
-  type: list
+# ALUMNI - UGs
+- title: Alumni / Undergraduates
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Chris Miller
+      year: 2021 - 2023
+      department: Pharmacy School, UW Madison
+    - title: Zamzam Nur
+      year: 2021 - 2023
+      department: 
+    - title: Zane Straka
+      year: 2022 - 2023
+      department: 
+    - title: Michelle Choi
+      year: 2022 
+      department: Pharmacy School, UW Madison
+    - title: Lenny Nunn
+      year: 2021 - 2022
+      department: Research Intern, UW Madison
+    - title: Elena Garncarz
+      year: 2019 - 2022
+      department: PhD Student, UW Madison
+    - title: Gabi Munoz
+      year: 2018 - 2021
+      department: Scientist, Catalent, Inc.
+    - title: Tran To
+      year: 2018 - 2020
+      department: MS, U Pennsylvana - PhD Student, Mt. Sinai
+    - title: Katie Kudrna
+      year: 2018 - 2019
+      department: DVM student, UW Madison
+    - title: Caitlin Marks
+      year: 2019 - 2020
+      department: Microbiologist, Wisconstin State Lab of Hygiene
+    - title: Abdi Elmi
+      year: 2018 - 2020
+      department: 
+    - title: Nick Kemble
+      year: 2018 - 2019
+      department: 
+    - title: Alexis Mann
+      year: 2017
+      department: PhD student (MMI), Johns Hopkins
+    - title: Eric Chen
+      year: 2017 - 2019
+      department: Postbac IRTA, NIH - MPH, Emory
+    - title: Justice Lightning
+      year: 2017 - 2018
+      department: 

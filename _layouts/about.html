@@ -5,8 +5,11 @@ layout: default
 <!-- about.html -->
       <div class="post">
         <header class="post-header">
-          <h1 class="post-title">
+          <h1 class="post-title"> <!-- MZ note: can change to H2 to make lab heading smaller-->
+
             {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+            <img src="assets/img/uw-logo-web.svg" height= 75px alt="" style="opacity:1; float: right;"> 
+            
           </h1>
           <p class="desc">{{ page.subtitle }}</p>
         </header>
@@ -29,9 +32,9 @@ layout: default
               alt=page.profile.image
               cache_bust=true -%}
             {% endif -%}
-            {%- if page.profile.more_info %}
-            <div class="more-info">
-              {{ page.profile.more_info }}
+            {%- if page.profile.address %}
+            <div class="address">
+              {{ page.profile.address }}
             </div>
             {%- endif %}
           </div>
