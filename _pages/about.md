@@ -16,19 +16,19 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-#### about us
+#### zamanian lab
 
 We are a research lab in the department of [Pathobiological Sciences](https://www.vetmed.wisc.edu/departments/pathobiological-sciences/) at the [University of Wisconsin—Madison](http://www.wisc.edu). We develop and apply molecular and computational approaches to study neglected parasitic diseases and host-pathogen interactions in both the lab and endemic settings. Our mission is to advance our understanding of the rich biology of these fascinating and complex pathogens, to advance human and animal health, and to invest and engage in the training of scientists at various stages. Visit our [Contact](contact) page to get in touch.
 
 
 <div class="row">
 
-  <div class="col-sm-1">
+  <div class="col-sm-4">
 
   </div>
   
-  <div class="col-sm-7" markdown="block" style="float:right; height: 250px; border-radius: 8px; border-style: solid; border-color: black; border-width: 0px; text-align: left; margin: 0; padding-left: 2%; padding-right: 2%; padding-bottom: 2%; padding-top: 2%; font-size: 90%; line-height: 1.4; overflow-x: scroll;">
-  <u>News</u>
+  <div class="col-sm-7" markdown="block" style="float:right; height: 230px; border-radius: 8px; border-style: solid; border-color: #b509ac; border-width: 1px; text-align: left; margin: 0; padding-left: 2%; padding-right: 2%; padding-bottom: 0%; padding-top: 0.5%; font-size: 90%; line-height: 1.3; overflow-x: scroll;">
+  <u>Lab News and Updates</u>
 
   <code>Aug 2023</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kendra has successfully defended her PhD and will be starting a postdoc at UC-Berkeley. Congrats Dr. Dahmer!
 
@@ -153,8 +153,8 @@ We are a research lab in the department of [Pathobiological Sciences](https://ww
   <code>Jan 2017</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The lab officially opens!<br>
   </div>
 
-  <div class="col-sm-4" style="float:center;text-align:center;display: flex; align-items: center;">
-        <img src="assets/img/uw-logotall-web.svg" height= 100px alt="" style="opacity:1; float: center;">
+  <div class="col-sm-1" style="float:center;text-align:center;display: flex; align-items: center;">
+       <!-- <img src="assets/img/uw-logotall-web.svg" height= 100px alt="" style="opacity:1; float: center;"> -->
   </div>
 </div>
 

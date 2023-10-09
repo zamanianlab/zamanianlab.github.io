@@ -20,7 +20,8 @@ layout: default
       {% for entry in site.data.cv %}
         <a class="anchor" id="{{ entry.title }}"></a>
         <div class="card mt-3 p-3"> 
-          <h3 class="card-title font-weight-medium" style="font-size: 100%;">{{ entry.title }}</h3> <!-- MZ add font-size 100%-->
+          <!-- MZ add font-size 80%, controls the font for the titles of each section-->
+          <h3 class="card-title font-weight-medium" style="font-size: 80%;">{{ entry.title }}</h3> 
           <div>
           {% if entry.type == "list" %}
             {% include cv/list.html %}

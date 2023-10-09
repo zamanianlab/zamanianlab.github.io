@@ -3,21 +3,21 @@
       <li class="list-group-item">
         <div class="row">
           {% if content.year %}
-            <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
+            <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 90px;">
               <table class="table-cv">
                 <tbody>
                   <!-- MZ add profile photos -->
                   <tr>
                     {%- if content.portrait -%}
                     <td>
-                      <img class="img" src="../assets/img/people/{{ content.portrait }}" width="75px" alt="">
+                      <img class="img" src="../assets/img/people/{{ content.portrait }}" width="90px" alt="">
                     </td>
                     {% endif %}
                   </tr>
                   <!-- MZ end-->
                   <tr>
                     <td>
-                      <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">{{ content.year }}</span>
+                      <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 90px;">{{ content.year }}</span>
                     </td>
                   </tr>
                   {% if content.location %}
@@ -35,7 +35,7 @@
 
           <div class="col-xs-10 cl-sm-10 col-md-10 mt-10 mt-md-10">
             {% if content.title %}
-            <h6 class="title font-weight-bold ml-1 ml-md-4">{{content.title}}</h6>
+            <h6 class="title ml-1 ml-md-4" style="font-weight: 400">{{content.title}}</h6> <!-- MZ font-weight-bold -> font-weight: 400 in class-->
             {% endif %}
             {% if content.department or content.institution %}
             <table class="table-cv ml-1 ml-md-4 institution">
