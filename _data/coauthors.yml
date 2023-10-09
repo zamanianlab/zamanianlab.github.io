@@ -1,11 +1,11 @@
 #staff
 "Vaccaro":
   - firstname: ["Kathy", "K"]
-    url: ""
+    url: https://scholar.google.com/citations?hl=en&user=VNgQPmgAAAAJ
 
 "Dinguirard":
   - firstname: ["Nathalie", "N"]
-    url: ""
+    url: https://scholar.google.com/citations?hl=en&user=d3RS4r4AAAAJ
 
 "Heimark":
   - firstname: ["Zachary", "Zachary W", "ZW"]
@@ -13,7 +13,7 @@
 
 "Nunn":
   - firstname: ["Leonardo", "Leonardo R", "LR"]
-    url: ""
+    url: https://scholar.google.com/citations?hl=en&user=Pj6H7t8AAAAJ
 
 "Palma-Cuero":
   - firstname: ["Monica"]
