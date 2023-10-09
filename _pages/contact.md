@@ -9,7 +9,7 @@ nav_order: 5
 
 #### Positions
 
-We are interested in recruiting students, and postdocs who share our scientific curiosity and interests.
+We are interested in recruiting students and postdocs who share our scientific curiosity and interests.
 
 `Undergraduates`: please e-mail the PI with your resume and a paragraph describing your academic trajectory and your specific interest in our lab. Hourly, research credit, and other arrangements will be considered. Undergraduates should be willing to devote a minimum of 10 hours a week during the semester and will be encouraged to apply for summer research scholarships.
 

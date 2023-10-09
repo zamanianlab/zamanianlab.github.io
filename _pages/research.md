@@ -26,7 +26,7 @@ img {
         <img class="img-fluid z-depth-1 rounded" src="../assets/img/research_icons/project_1.jpg" alt="Drugs">
     </div>
     <div class = "col-sm-10">
-        <code>Drug Discovery at the Host-Parasite Interface</code> Driven by the need for new antiparasitics, we mix target-based and whole-organism screening approaches to validate new drug and vaccine targets and discover antiparasitic compounds. This includes characterizing nematode receptors that mediate critical aspects of the host-parasite interaction, including parasite secretory, sensory, and neuromuscular behaviors. In parallel, we are developing advanced whole-parasite screens that serve as better indicators of in vivo drug efficacy and leveraging these pipelines for chemogenomic profiling and scaled natural product screens in an evolutionary and ecological framework.
+        <code>Drug Discovery at the Host-Parasite Interface</code> Driven by the need for new antiparasitics, we mix target-based and whole-organism screening approaches to validate new drug and vaccine targets and discover antiparasitic compounds. This includes characterizing nematode receptors that mediate critical aspects of the host-parasite interaction, including parasite secretory, sensory, and neuromuscular behaviors. In parallel, we are advancing phenotypic screening pipelines for chemogenomic profiling and mining microbial natural products in an evolutionary and ecological framework.
     </div>
 </div>
 <br>
