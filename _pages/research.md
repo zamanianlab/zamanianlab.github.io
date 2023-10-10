@@ -10,7 +10,7 @@ display_categories: [work, funding]
 horizontal: false
 ---
 
-[Neglected Diseases (NTDs)](http://www.who.int/neglected_diseases/diseases/en/) caused by parasitic worms (helminths) infect over one billion humans and impose a debilitating health and economic burden throughout the world. Parasitic diseases are also a major threat to animal and plant health. The central ambition of our lab is to combine molecular, genetics, and pharmacalogical approaches to make discoveries that improve our understanding of parasite biology and host-parasite interactions, as well as our ability to treat human and animal parasitic infections. Summaries of active projects: 
+[Neglected Diseases (NTDs)](http://www.who.int/neglected_diseases/diseases/en/) caused by parasitic worms (helminths) infect over one billion humans and impose a debilitating health and economic burden throughout the world. Parasitic diseases are also a major threat to animal and plant health. The central ambition of our lab is to combine molecular, genetics, and pharmacological approaches to make discoveries that improve our understanding of parasite biology and host-parasite interactions, as well as our ability to treat human and animal parasitic infections. Summaries of active projects: 
 <br>
 <br>
 
