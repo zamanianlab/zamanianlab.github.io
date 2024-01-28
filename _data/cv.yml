@@ -134,6 +134,19 @@
       portrait: sdiaz.jpg
       description: 
 
+    - title: Cole Knuese
+      institution: MS Student
+      department: CBMS
+      location: Waukesha, WI
+      year: 2024 - 
+      email: ckneuse@wisc.edu
+      gscholar: 
+      orcid:
+      github:
+      cv_url:
+      portrait: 
+      description: 
+
 # UGs
 - title: Undergraduates
   type: time_table
