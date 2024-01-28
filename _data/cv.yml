@@ -153,7 +153,11 @@
       year: 2023 - 
       department: Biochemistry and Global Health
       portrait: nbetancourt.jpg
-            
+    - title: Ankit Kulshrestha
+      location: Singapore
+      year: 2023 - 
+      department: Computer Science
+      portrait: akulshrestha.jpg
 # ALUMNI - Trainees / Staff
 - title: "Alumni: Trainees & Staff"
   type: time_table
