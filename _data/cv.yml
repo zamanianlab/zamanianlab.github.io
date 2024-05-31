@@ -39,18 +39,18 @@
       portrait: kvaccaro.jpg
       description: 
 
-#     - title: Nathalie Dinguirard
-#       institution: Research Scientist
-#       department:
-#      location: Toulouse, France
-#       year: 2023 -
-#       email: ndinguirard@wisc.edu
-#       gscholar: d3RS4r4AAAAJ
-#       orcid: 0000-0001-5843-2584
-#       github: nmdinguirard
-#       cv_url:
-#       portrait: ndinguirard.jpg
-#       description: 
+    - title: Nathalie Dinguirard
+      institution: Research Scientist
+      department:
+      location: Toulouse, France
+      year: 2023 -
+      email: ndinguirard@wisc.edu
+      gscholar: d3RS4r4AAAAJ
+      orcid: 0000-0001-5843-2584
+      github: nmdinguirard
+      cv_url:
+      portrait: ndinguirard.jpg
+      description: 
 
     - title: Lenny Nunn
       institution: Research Intern
@@ -151,11 +151,6 @@
 - title: Undergraduates
   type: time_table
   contents:
-    - title: Sydney Oerter
-      location: Shorewood, WI
-      year: 2022 - 
-      department: Biology
-      portrait: soerter.jpg
     - title: Greta Hiltgen
       location: Appleton, WI
       year: 2023 - 
@@ -206,12 +201,15 @@
 - title: "Alumni: Undergrads"
   type: time_table
   contents:
+    - title: Sydney Oerter
+      year: 2022 - 2024
+      department: Veterinary School, UW-Madison
+    - title: Zamzam Nur
+      year: 2021 - 2023
+      department: Medical School, UW-Madison
     - title: Chris Miller
       year: 2021 - 2023
       department: Pharmacy School, UW-Madison
-    - title: Zamzam Nur
-      year: 2021 - 2023
-      department: 
     - title: Zane Straka
       year: 2022 - 2023
       department: 
@@ -232,7 +230,7 @@
       department: MS, University of Pennsylvana; PhD Student, Mount Sinai
     - title: Katie Kudrna
       year: 2018 - 2019
-      department: DVM student, UW-Madison
+      department: Veterinary School, UW-Madison
     - title: Caitlin Marks
       year: 2019 - 2020
       department: Microbiologist, Wisconstin State Lab of Hygiene
