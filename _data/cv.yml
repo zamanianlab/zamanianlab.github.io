@@ -147,6 +147,20 @@
       portrait: 
       description: 
 
+    - title: Natalia Betancourt
+      institution: PhD Student
+      department: CBMS
+      location: Cali, CO
+      year: 2024 - 
+      email: nbetancourt@wisc.edu
+      gscholar: 
+      orcid:
+      github:
+      cv_url:
+      portrait: nbetancourt.jpg
+      description: 
+
+
 # UGs
 - title: Undergraduates
   type: time_table
@@ -156,11 +170,7 @@
       year: 2023 - 
       department: Biology
       portrait: ghiltgen.jpg
-    - title: Natalia Betancourt
-      location: Cali, CO
-      year: 2023 - 
-      department: Biochemistry and Global Health
-      portrait: nbetancourt.jpg
+
 
 
 # ALUMNI - Trainees / Staff
