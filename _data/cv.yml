@@ -161,11 +161,8 @@
       year: 2023 - 
       department: Biochemistry and Global Health
       portrait: nbetancourt.jpg
-    - title: Ankit Kulshrestha
-      location: Singapore
-      year: 2023 - 
-      department: Computer Science
-      portrait: akulshrestha.jpg
+
+
 # ALUMNI - Trainees / Staff
 - title: "Alumni: Trainees & Staff"
   type: time_table
@@ -184,23 +181,19 @@
       department: Postdoctoral Fellow
       institution: <a href="https://wheelerlab.bio/">Assistant Professor</a>, University of Wisconsin-Eau Claire
       portrait: 
-    - title: Zach Heimark
-      year: 2018 - 2020
-      department: Research Intern
-      portrait: 
     - title: Paul Airs
       year: 2018 - 2010
       department: Postdoctoral Fellow
       institution: Fellow, Cambridge University
-    - title: Divyaa Srinivasan
-      year: 2017
-      department: Research Intern
-      institution: PhD student, Florida State
+
 
 # ALUMNI - UGs
-- title: "Alumni: Undergrads"
+- title: "Alumni: Undergrads and Interns"
   type: time_table
   contents:
+    - title: Ankit Kulshrestha
+      year: 2023 - 2024
+      department: Software Developer, Holos
     - title: Sydney Oerter
       year: 2022 - 2024
       department: Veterinary School, UW-Madison
@@ -234,6 +227,9 @@
     - title: Caitlin Marks
       year: 2019 - 2020
       department: Microbiologist, Wisconstin State Lab of Hygiene
+    - title: Zach Heimark (Research Intern)
+      year: 2018 - 2020
+      department: 
     - title: Abdi Elmi
       year: 2018 - 2020
       department: 
@@ -249,3 +245,6 @@
     - title: Justice Lightning
       year: 2017 - 2018
       department: 
+    - title: Divyaa Srinivasan (Research Intern)
+      year: 2017
+      department: PhD student, Florida State
