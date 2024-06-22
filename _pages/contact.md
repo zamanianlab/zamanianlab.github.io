@@ -26,7 +26,7 @@ We are interested in recruiting students and postdocs who share our scientific c
         📠 (608) 262-7420 <br>
         ✉️ <a href="mailto:mzamanian@wisc.edu">mzamanian at wisc.edu</a>
         <br> <br>
-        🧪 Main Lab: 2961; Office: 2864<br>
+        🧪 Main Lab: 2961; Office: 2870 <br>
         &nbsp;&nbsp;&nbsp;&nbsp; University of Wisconsin <br>
         &nbsp;&nbsp;&nbsp;&nbsp; 515 Easterday Lane <br>
         &nbsp;&nbsp;&nbsp;&nbsp; Madison, WI 53706-1581
