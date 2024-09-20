@@ -4,10 +4,10 @@ permalink: /contact/
 title: contact
 description: Materials for courses you taught. Replace this text with your description.
 nav: true
-nav_order: 6
+nav_order: 5
 ---
 
-#### Positions
+#### positions
 
 We are interested in recruiting students and postdocs who share our scientific curiosity and interests.
 
