@@ -144,7 +144,7 @@
       orcid:
       github:
       cv_url:
-      portrait: 
+      portrait: cknuese.jpg
       description: 
 
     - title: Natalia Betancourt
@@ -170,6 +170,18 @@
       year: 2023 - 
       department: Biology
       portrait: ghiltgen.jpg
+
+    - title: Benjamin Lee
+      location: Singapore
+      year: 2024 - 
+      department: Computer Science
+      portrait: blee.jpg
+      
+    - title: Sal Singh
+      location: 
+      year: 2024 - 
+      department: 
+      portrait: ssingh.jpg
 
 
 
