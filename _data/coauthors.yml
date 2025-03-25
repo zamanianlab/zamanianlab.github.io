@@ -29,11 +29,16 @@
     url: https://scholar.google.com/citations?hl=en&user=PVoa0PwAAAAJ
 
 "Collins":
-  - firstname: ["James", "James B", "JB"]
+  - firstname: ["James", "James B", "JB", "J B"]
     url: ""
 
 
 #phd students
+
+"Betancourt":
+  - firstname: ["Natalia", "N"]
+    url: https://scholar.google.com/citations?user=xHLAYTIAAAAJ
+
 "Ryan":
   - firstname: ["Kaetlyn T", "Kaetlyn","KT", "Katie T"]
     url: https://scholar.google.com/citations?user=xHLAYTIAAAAJ
@@ -56,6 +61,14 @@
 
 
 #undergrads
+
+"Lee":
+  - firstname: ["Hui Siang Benjamin"]
+    url: ""
+
+"Kulshrestha":
+  - firstname: ["Ankit", "A"]
+    url: ""
 
 "Mann":
   - firstname: ["Alexis"]

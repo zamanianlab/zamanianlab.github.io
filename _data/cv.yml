@@ -95,19 +95,6 @@
       portrait: kryan.jpg
       description: 
 
-    - title: JB Collins
-      institution: Postdoc (joint)
-      department: Northwestern University
-      location: Colbert, GA
-      year: 2021 - 
-      email: jcollins32@wisc.edu
-      gscholar:
-      orcid: 
-      github:
-      cv_url:
-      portrait: jbcollins.jpg
-      description: 
-
     - title: Elena Rehborg
       institution: PhD Student
       department: MDTP
@@ -119,19 +106,6 @@
       github: ejgrehborg
       cv_url:
       portrait: egarncarz.jpg
-      description: 
-
-    - title: Sebastián Díaz
-      institution: GHI Postdoc
-      department: Universidad Nacional de Colombia
-      location: Medellin, CO
-      year: 2023 - 
-      email: sediazz@unal.edu.co
-      gscholar: xbsJLz8AAAAJ
-      orcid:
-      github:
-      cv_url:
-      portrait: sdiaz.jpg
       description: 
 
     - title: Cole Knuese
@@ -189,24 +163,33 @@
 - title: "Alumni: Trainees & Staff"
   type: time_table
   contents:
-    - title: Kendra Dahmer
-      year: 2018 - 2023
-      department: CBMS PhD
-      institution: Postdoc, University of California-Berkeley
-      portrait: 
-    - title: Monica Palma
-      year: 2022
-      department: GHI Visiting Scholar
-      portrait: 
-    - title: Nic Wheeler
-      year: 2017 - 2022
-      department: Postdoctoral Fellow
-      institution: <a href="https://wheelerlab.bio/">Assistant Professor</a>, University of Wisconsin-Eau Claire
-      portrait: 
-    - title: Paul Airs
-      year: 2018 - 2010
-      department: Postdoctoral Fellow
-      institution: Fellow, Cambridge University
+      - title: JB Collins
+        year: 2021 - 2023
+        department: Joint Postdoc, Northwestern University
+        institution: Postdoc, Johns Hopkins University
+        portrait: 
+      - title: Sebastián Díaz
+        year: 2023 - 2025
+        department: GHI Postdoc, Universidad Nacional de Colombia
+        portrait: 
+      - title: Kendra Dahmer
+        year: 2018 - 2023
+        department: CBMS PhD
+        institution: Postdoc, University of California-Berkeley
+        portrait: 
+      - title: Monica Palma
+        year: 2022
+        department: GHI Visiting Scholar
+        portrait: 
+      - title: Nic Wheeler
+        year: 2017 - 2022
+        department: Postdoctoral Fellow
+        institution: <a href="https://wheelerlab.bio/">Assistant Professor</a>, University of Wisconsin-Eau Claire
+        portrait: 
+      - title: Paul Airs
+        year: 2018 - 2010
+        department: Postdoctoral Fellow
+        institution: Fellow, Cambridge University
 
 
 # ALUMNI - UGs
