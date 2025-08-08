@@ -69,18 +69,6 @@
 - title: Grad Students & PDs
   type: time_table
   contents:
-    - title: Clair Henthorn
-      institution: PhD Student
-      department: CBMS
-      location: Onalaska, WI
-      year: 2020 - 
-      email: chenthorn@wisc.edu
-      gscholar: bsbyaLQAAAAJ
-      orcid: 0000-0002-0224-7336
-      github: chenthorn
-      cv_url: https://drive.google.com/file/d/1eGO9GmeNFyC3-tX14267TJEeKAt72-s-/view?usp=drive_link
-      portrait: chenthorn.jpg
-      description: 
 
     - title: Katie Ryan
       institution: PhD Student
@@ -163,37 +151,44 @@
 - title: "Alumni: Trainees & Staff"
   type: time_table
   contents:
+      - title: Clair Henthorn
+        year: 2020 - 2025
+        department: Scientist III, Cell & Gene Therapy, PPD (Thermo Fisher) 
+        institution: CBMS PhD
+        portrait:       
       - title: JB Collins
         year: 2021 - 2023
-        department: Joint Postdoc, Northwestern University
-        institution: Postdoc, Johns Hopkins University
+        department: Postdoc, Johns Hopkins University
+        institution: Joint Postdoc
         portrait: 
       - title: Sebastián Díaz
         year: 2023 - 2025
-        department: GHI Postdoc, Universidad Nacional de Colombia
+        department: 
+        institution: GHI Postdoc, Universidad Nacional de Colombia
         portrait: 
       - title: Kendra Dahmer
         year: 2018 - 2023
-        department: CBMS PhD
-        institution: Postdoc, University of California-Berkeley
+        department: Postdoc, University of California-Berkeley 
+        institution: CBMS PhD
         portrait: 
       - title: Monica Palma
         year: 2022
-        department: GHI Visiting Scholar
+        department: 
+        institution: GHI Visiting Scholar
         portrait: 
       - title: Nic Wheeler
         year: 2017 - 2022
-        department: Postdoctoral Fellow
-        institution: <a href="https://wheelerlab.bio/">Assistant Professor</a>, University of Wisconsin-Eau Claire
+        department: <a href="https://wheelerlab.bio/">Assistant Professor</a>, University of Wisconsin-Eau Claire
+        institution: Merck & NIH Postdoctoral Fellow 
         portrait: 
       - title: Paul Airs
         year: 2018 - 2010
-        department: Postdoctoral Fellow
-        institution: Fellow, Cambridge University
+        department: Fellow, Cambridge University
+        institution: Postdoctoral Fellow 
 
 
 # ALUMNI - UGs
-- title: "Alumni: Undergrads and Interns"
+- title: "Alumni: Undergrads"
   type: time_table
   contents:
     - title: Ankit Kulshrestha

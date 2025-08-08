@@ -30,9 +30,15 @@ We are a research lab in the department of [Pathobiological Sciences](https://ww
   <div class="col-sm-7" markdown="block" style="float:right; height: 230px; border-radius: 8px; border-style: solid; border-color: #b509ac; border-width: 1px; text-align: left; margin: 0; padding-left: 2%; padding-right: 2%; padding-bottom: 0%; padding-top: 0.5%; font-size: 90%; line-height: 1.3; overflow-x: scroll;">
   <u>Lab News and Updates</u>
 
+  <code>Jul 2025</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Work on orotopical bat rabies vaccine led by Cole Knuese profiled in <a href="https://www.science.org/content/article/vampire-bats-mutual-grooming-helps-spread-innovative-rabies-vaccine">Science Magazine</a>.
+
+  <code>Jun 2025</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Congrats to Clair Henthorn for completing her PhD! Clair is now a Scientist at PPD (Thermo Fisher).
+
+  <code>Jun 2024</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Katie and Natalia presented at AAVP in St. Louis. Katie won the Best Student Oral Presentation Award!
+
   <code>Sep 2024</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Natalia Betancourt joins the lab as a PhD student through the CBMS program.
 
-  <code>Jul 2024</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Clair, Elena, and Katie presented talks and posters at the 2024 AAVP Meeting and took home presentation awards.
+  <code>Jul 2024</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Clair, Elena, and Katie presented talks and posters at the AAVP Meeting in Atlanta and took home presentation awards.
 
   <code>Aug 2023</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kendra has successfully defended her PhD and will be starting a postdoc at UC-Berkeley. Congrats Dr. Dahmer!
 
