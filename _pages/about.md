@@ -24,7 +24,7 @@ We are a research lab in the department of [Pathobiological Sciences](https://ww
 <div class="row">
 
   <div class="col-sm-4">
-
+          <img class="img-fluid z-depth-0 rounded" src="assets/img/lab-logo.png" height="200px" alt="Madison">
   </div>
   
   <div class="col-sm-7" markdown="block" style="float:right; height: 230px; border-radius: 8px; border-style: solid; border-color: #b509ac; border-width: 1px; text-align: left; margin: 0; padding-left: 2%; padding-right: 2%; padding-bottom: 0%; padding-top: 0.5%; font-size: 90%; line-height: 1.3; overflow-x: scroll;">
