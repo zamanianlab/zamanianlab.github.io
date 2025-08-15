@@ -16,14 +16,14 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-#### zamanian lab
+#### Mission
 
 We are a research lab in the department of [Pathobiological Sciences](https://www.vetmed.wisc.edu/departments/pathobiological-sciences/) at the [University of Wisconsin—Madison](http://www.wisc.edu). We develop and apply molecular and computational approaches to study neglected parasitic diseases and host-pathogen interactions in both the lab and endemic settings. Our mission is to advance our understanding of the rich biology of these fascinating and complex pathogens, to advance human and animal health, and to invest and engage in the training of scientists at various stages. Visit our [Contact](contact) page to get in touch.
 
 
 <div class="row">
 
-  <div class="col-sm-4">
+  <div class="col-sm-5">
           <img class="img-fluid z-depth-0 rounded" src="assets/img/lab-logo.png" height="200px" alt="Madison">
   </div>
   
@@ -163,9 +163,7 @@ We are a research lab in the department of [Pathobiological Sciences](https://ww
   <code>Jan 2017</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The lab officially opens!<br>
   </div>
 
-  <div class="col-sm-1" style="float:center;text-align:center;display: flex; align-items: center;">
-       <!-- <img src="assets/img/uw-logotall-web.svg" height= 100px alt="" style="opacity:1; float: center;"> -->
-  </div>
+
 </div>
 
 
