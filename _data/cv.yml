@@ -148,9 +148,14 @@
 
 
 # ALUMNI - Trainees / Staff
-- title: "Alumni: Trainees & Staff"
+- title: "Alumni and Visitors"
   type: time_table
   contents:
+      - title: Leonor Sicalo
+        year: 2025 
+        department: Assistant Professor, University of Georgia
+        institution: Visiting Scholar 
+        portrait:       
       - title: Clair Henthorn
         year: 2020 - 2025
         department: Scientist III, Cell & Gene Therapy, PPD (Thermo Fisher) 
