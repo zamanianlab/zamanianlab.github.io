@@ -3,14 +3,14 @@ layout: page
 title: services
 permalink: /services/
 description: 
-
 nav: true
 nav_order: 4
 display_categories: [work, funding]
 horizontal: false
 ---
 
-#### antiparasitic screening services
+
+#### Drug screening services
 
 <br>
 <div class="row">
@@ -23,6 +23,8 @@ horizontal: false
     </div>
 </div>
 <br>
+
+
 
 <code>Antiparasitic screening</code> We offer a range of powerful antiparasitic and anthelmintic screening assays using phenotyping pipelines and AI-assisted software developed in our laboratory. We offer in vitro screening assays for insect and soil-transmitted helminths of veterinary, agricultural, and human health relevance, as well as the model nematode *C. elegans*. Our platforms are scalable and provide quantitative multivariate readouts of drug action and kinetics. The deliverables for each assay will include an overview of QC data and processing of image data into informatives plots. All raw data will be retained for a year post delivery.
 

@@ -18,8 +18,9 @@ social: false  # includes social icons at the bottom of the page
 
 #### Mission
 
-We are a research lab in the department of [Pathobiological Sciences](https://www.vetmed.wisc.edu/departments/pathobiological-sciences/) at the [University of Wisconsin—Madison](http://www.wisc.edu). We develop and apply molecular and computational approaches to study neglected parasitic diseases and host-pathogen interactions in both the lab and endemic settings. Our mission is to advance our understanding of the rich biology of these fascinating and complex pathogens, to advance human and animal health, and to invest and engage in the training of scientists at various stages. Visit our [Contact](contact) page to get in touch.
+We are a research lab in the department of [Pathobiological Sciences](https://www.vetmed.wisc.edu/departments/pathobiological-sciences/) at the [University of Wisconsin—Madison](http://www.wisc.edu). We apply molecular and computational approaches to study neglected parasitic diseases and host-pathogen interactions in both the lab and endemic settings. Our mission is to advance our understanding of the rich biology of these fascinating and complex pathogens, to advance human and animal health through new therapeutics, and to facilitate the training of scientists at various stages. Visit our [Contact](contact) page to get in touch.
 
+<br> 
 
 <div class="row">
 
@@ -169,7 +170,7 @@ We are a research lab in the department of [Pathobiological Sciences](https://ww
 
 
 
-<br> <br> 
+<br> 
 <div class="row">
     <div class="col-sm-4">
         <img class="img-fluid z-depth-1 rounded" src="assets/img/madison/madison_1_crop.jpg" height="200px" alt="Madison">

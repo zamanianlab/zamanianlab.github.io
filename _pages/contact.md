@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-#### positions
+
 
 We are interested in recruiting students and postdocs who share our scientific curiosity and interests.
 
