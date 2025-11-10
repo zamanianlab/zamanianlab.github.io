@@ -168,9 +168,7 @@ We are a research lab in the department of [Pathobiological Sciences](https://ww
 </div>
 
 
-
-
-<br> 
+<br>
 <div class="row">
     <div class="col-sm-4">
         <img class="img-fluid z-depth-1 rounded" src="assets/img/madison/madison_1_crop.jpg" height="200px" alt="Madison">
@@ -184,14 +182,14 @@ We are a research lab in the department of [Pathobiological Sciences](https://ww
 </div>
 <hr>
 
-
 <div style="float:center;text-align:center;line-height:0px;" >
-<img src="assets/img/funding/NIAID.png" alt="" width="100">
+<br><u>Past and present funding</u><br>
+<img src="assets/img/funding/NIAID.png" alt="" width="140">
 &nbsp;&nbsp;&nbsp;&nbsp;
-<img src="assets/img/funding/NSF.png" alt="" width="50">
+<img src="assets/img/funding/NSF.png" alt="" width="70">
 &nbsp;&nbsp;&nbsp;&nbsp;
-<img src="assets/img/funding/WARF.png" alt="" width="80">
+<img src="assets/img/funding/WARF.png" alt="" width="90">
 &nbsp;&nbsp;&nbsp;&nbsp;
-<img src="assets/img/funding/Gates.png" alt="" width="90"><br>
-<code>Past and present funding</code>
+<img src="assets/img/funding/Gates.png" alt="" width="120"><br>
+
 </div>
