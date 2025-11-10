@@ -186,12 +186,12 @@ We are a research lab in the department of [Pathobiological Sciences](https://ww
 
 
 <div style="float:center;text-align:center;line-height:0px;" >
-<img src="assets/img/funding/NIAID.png" alt="" width="160">
+<img src="assets/img/funding/NIAID.png" alt="" width="100">
 &nbsp;&nbsp;&nbsp;&nbsp;
-<img src="assets/img/funding/NSF.png" alt="" width="80">
+<img src="assets/img/funding/NSF.png" alt="" width="50">
 &nbsp;&nbsp;&nbsp;&nbsp;
-<img src="assets/img/funding/WARF.png" alt="" width="130">
+<img src="assets/img/funding/WARF.png" alt="" width="80">
 &nbsp;&nbsp;&nbsp;&nbsp;
-<img src="assets/img/funding/Gates.png" alt="" width="150"><br>
+<img src="assets/img/funding/Gates.png" alt="" width="90"><br>
 <code>Past and present funding</code>
 </div>
