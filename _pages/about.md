@@ -31,6 +31,10 @@ We are a research lab in the department of [Pathobiological Sciences](https://ww
   <div class="col-sm-7" markdown="block" style="float:right; height: 230px; border-radius: 8px; border-style: solid; border-color: #b509ac; border-width: 1px; text-align: left; margin: 0; padding-left: 2%; padding-right: 2%; padding-bottom: 0%; padding-top: 0.5%; font-size: 90%; line-height: 1.3; overflow-x: scroll;">
   <u>Lab News and Updates</u>
 
+  <code>Dec 2025</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dante James will join the lab as a PhD student in the MDTP program co-advised by Nancy Keller.
+
+  <code>Nov 2025</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cole Knuese successfully defended his dissertation!
+
   <code>Jul 2025</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Work on orotopical bat rabies vaccine led by Cole Knuese profiled in <a href="https://www.science.org/content/article/vampire-bats-mutual-grooming-helps-spread-innovative-rabies-vaccine">Science Magazine</a>.
 
   <code>Jun 2025</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Congrats to Clair Henthorn for completing her PhD! Clair is now a Scientist at PPD (Thermo Fisher).
