@@ -10,7 +10,7 @@
   type: time_table
   contents:
     - title: Mostafa Zamanian
-      institution: Associate Professor
+      institution: Principal Investigator
       department:
       location: Ames, IA
       year: PI
@@ -21,7 +21,7 @@
       cv_url: http://www.zamanianlab.org
       portrait: mzamanian.jpg
       description: 
-
+      
 # STAFF
 - title: Professional Staff
   type: time_table
