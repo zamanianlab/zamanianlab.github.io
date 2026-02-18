@@ -69,7 +69,6 @@
 - title: Grad Students & PDs
   type: time_table
   contents:
-
     - title: Katie Ryan
       institution: PhD Student
       department: CMP
@@ -127,7 +126,6 @@
 - title: Undergraduates
   type: time_table
   contents:
-
     - title: Greta Hiltgen
       location: Appleton, WI
       year: 2023 - 
@@ -153,7 +151,7 @@
       portrait:
 
 
-# ALUMNI - Trainees / Staff
+# Alumni: Trainees
 - title: "Alumni: Trainees"
   type: time_table
   contents:
@@ -192,7 +190,7 @@
         department: Fellow, Cambridge University
         institution: Postdoctoral Fellow 
 
-
+# Alumni: Visiting Scholars
 - title: "Visiting Scholars"
   type: time_table
   contents:
@@ -208,7 +206,7 @@
         portrait: 
 
 
-# ALUMNI - UGs
+# Alumni: Undergrads
 - title: "Alumni: Undergrads"
   type: time_table
   contents:
