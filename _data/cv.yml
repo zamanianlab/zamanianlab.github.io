@@ -127,17 +127,12 @@
 - title: Undergraduates
   type: time_table
   contents:
+
     - title: Greta Hiltgen
       location: Appleton, WI
       year: 2023 - 
       department: Biology
       portrait: ghiltgen.jpg
-
-    - title: Benjamin Lee
-      location: Singapore
-      year: 2024 - 
-      department: Computer Science
-      portrait: blee.jpg
       
     - title: Sal Singh
       location: Bangalore, India
@@ -145,6 +140,17 @@
       department: Biochemistry
       portrait: ssingh.jpg
 
+    - title: Ashlyn Miller
+      location: Plymouth, WI
+      year: 2025 - 
+      department: Biology
+      portrait: 
+
+    - title: Jordan Hendershot
+      location: Las Vegas, NV
+      year: 2026 - 
+      department: Genetics and Genomics
+      portrait:
 
 
 # ALUMNI - Trainees / Staff
@@ -201,6 +207,9 @@
 - title: "Alumni: Undergrads"
   type: time_table
   contents:
+    - title: Benjamin Lee
+      year: 2024 - 2026
+      department: 
     - title: Ankit Kulshrestha
       year: 2023 - 2024
       department: Software Developer, Holos
