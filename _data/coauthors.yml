@@ -63,6 +63,10 @@
   - firstname: ["Elena", "Elena G", "EG", "Elena J G"]
     url: ""
 
+"Garncarz":
+  - firstname: ["Elena", "Elena G", "EG", "Elena J G"]
+    url: ""
+
 "Knuese":
   - firstname: ["Cole", "C"]
     url: ""
@@ -71,7 +75,7 @@
 #undergrads
 
 "Lee":
-  - firstname: ["Hui Siang Benjamin"]
+  - firstname: ["Hui Siang Benjamin" ,"Benjamin", "Ben"]
     url: ""
 
 "Kulshrestha":
@@ -79,7 +83,7 @@
     url: ""
 
 "Mann":
-  - firstname: ["Alexis"]
+  - firstname: ["Alexis", "A"]
     url: ""
 
 "Elmi":

@@ -96,19 +96,6 @@
       portrait: egarncarz.jpg
       description: 
 
-    - title: Cole Knuese
-      institution: MS Student
-      department: CBMS
-      location: Waukesha, WI
-      year: 2024 - 
-      email: ckneuse@wisc.edu
-      gscholar: 
-      orcid:
-      github:
-      cv_url:
-      portrait: cknuese.jpg
-      description: 
-
     - title: Natalia Betancourt
       institution: PhD Student
       department: CBMS
@@ -164,6 +151,11 @@
 - title: "Alumni and Visitors"
   type: time_table
   contents:
+      - title: Cole Knuese
+        year: 2024 - 2026
+        department: 
+        institution: CBMS MS
+        portrait:       
       - title: Leonor Sicalo
         year: 2025 
         department: Assistant Professor, University of Georgia
