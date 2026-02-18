@@ -154,18 +154,13 @@
 
 
 # ALUMNI - Trainees / Staff
-- title: "Alumni and Visitors"
+- title: "Alumni: Trainees"
   type: time_table
   contents:
       - title: Cole Knuese
         year: 2024 - 2026
         department: 
         institution: CBMS MS
-        portrait:       
-      - title: Leonor Sicalo
-        year: 2025 
-        department: Assistant Professor, University of Georgia
-        institution: Visiting Scholar 
         portrait:       
       - title: Clair Henthorn
         year: 2020 - 2025
@@ -187,11 +182,6 @@
         department: Postdoc, University of California-Berkeley 
         institution: CBMS PhD
         portrait: 
-      - title: Monica Palma
-        year: 2022
-        department: 
-        institution: GHI Visiting Scholar
-        portrait: 
       - title: Nic Wheeler
         year: 2017 - 2022
         department: <a href="https://wheelerlab.bio/">Assistant Professor</a>, University of Wisconsin-Eau Claire
@@ -201,6 +191,21 @@
         year: 2018 - 2010
         department: Fellow, Cambridge University
         institution: Postdoctoral Fellow 
+
+
+- title: "Visiting Scholars"
+  type: time_table
+  contents:
+      - title: Leonor Sicalo
+        year: 2025 
+        department: Assistant Professor, University of Georgia
+        institution: Visiting Scholar 
+        portrait:       
+      - title: Monica Palma
+        year: 2022
+        department: 
+        institution: GHI Visiting Scholar
+        portrait: 
 
 
 # ALUMNI - UGs
