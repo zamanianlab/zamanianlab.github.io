@@ -18,7 +18,8 @@ social: false  # includes social icons at the bottom of the page
 
 #### Mission
 
-We are a research lab in the department of [Pathobiological Sciences](https://www.vetmed.wisc.edu/departments/pathobiological-sciences/) at the [University of Wisconsin—Madison](http://www.wisc.edu). We apply molecular and computational approaches to study neglected parasitic diseases and host-pathogen interactions in both the lab and endemic settings. Our mission is to advance our understanding of the rich biology of these fascinating and complex pathogens, to advance human and animal health through new therapeutics, and to facilitate the training of scientists at various stages. Visit our [Contact](contact) page to get in touch.
+We are a research lab in the Department of Pathobiological Sciences at the [University of Wisconsin—Madison](http://www.wisc.edu). We pair experimental and computational approaches to study neglected parasitic diseases and host-pathogen interactions, with the goal of identifying molecular drivers of successful infection. Our mission is to illuminate the biology of these complex pathogens, advance human and animal health through new therapeutics, and to facilitate the training of scientists at every career stage. Visit our [Contact](contact) page to get in touch.
+
 
 <br> 
 
@@ -30,6 +31,10 @@ We are a research lab in the department of [Pathobiological Sciences](https://ww
   
   <div class="col-sm-7" markdown="block" style="float:right; height: 230px; border-radius: 8px; border-style: solid; border-color: #b509ac; border-width: 1px; text-align: left; margin: 0; padding-left: 2%; padding-right: 2%; padding-bottom: 0%; padding-top: 0.5%; font-size: 90%; line-height: 1.3; overflow-x: scroll;">
   <u>Lab News and Updates</u>
+
+  <code>Apr 2026</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Congrats to Katie Ryan for a successful PhD defense!
+
+  <code>Apr 2026</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dante is awarded an NSF GRFP Award!
 
   <code>Dec 2025</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dante James will join the lab as a PhD student in the MDTP program co-advised by Nancy Keller.
 
