@@ -48,3 +48,123 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+
+/******************************************************************************
+ * Landing page — lab news feed
+ ******************************************************************************/
+
+.logo-worm-wrap {
+  position: relative;
+  width: 44%;
+  margin: -0.6rem auto 0;
+  overflow: visible;
+
+  canvas {
+    position: absolute;
+    top: 0;
+    left: -25%;
+    width: 150%;
+    height: 100%;
+    cursor: none;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.lab-news {
+  height: 100%;
+  background-color: rgba(46, 80, 144, 0.06);
+  border-radius: 0.6rem;
+  padding: 1rem 1.1rem;
+
+  .news-label {
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.5rem;
+  }
+
+  .news-scroll {
+    max-height: 280px;
+    overflow-y: auto;
+    padding-right: 6px;
+
+    // thin custom scrollbar
+    &::-webkit-scrollbar       { width: 3px; }
+    &::-webkit-scrollbar-track { background: transparent; }
+    &::-webkit-scrollbar-thumb {
+      background: var(--global-divider-color);
+      border-radius: 2px;
+    }
+  }
+
+  .news-entry {
+    display: flex;
+    align-items: baseline;
+    gap: 0.85rem;
+    padding: 0.32rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+
+    &:last-child { border-bottom: none; }
+  }
+
+  .news-date {
+    flex: 0 0 5.4rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--global-theme-color);
+    font-variant-numeric: tabular-nums;
+    padding-top: 1px;
+  }
+
+  .news-body {
+    font-size: 0.83rem;
+    line-height: 1.4;
+    color: var(--global-text-color);
+
+    a {
+      color: var(--global-theme-color);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.15s;
+
+      &:hover { border-bottom-color: var(--global-theme-color); }
+    }
+  }
+}
+
+.funding-row {
+  padding: 0.5rem 0 0.25rem;
+
+  .funding-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--global-text-color-light);
+    display: block;
+    margin-bottom: 0.75rem;
+  }
+
+  .funding-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+
+    img {
+      height: 42px;
+      width: auto;
+      filter: #{"grayscale(100%) opacity(0.5)"};
+      transition: filter 0.3s ease;
+
+      &:hover { filter: #{"grayscale(0%) opacity(1)"}; }
+    }
+  }
+}

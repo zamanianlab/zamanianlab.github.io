@@ -1,29 +1,21 @@
     {% if site.footer_fixed %}
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        <!-- &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {{ site.footer_text }} -->
-        &copy; Copyright {{ site.time | date: '%Y' }} M. {{ site.middle_name }} {{ site.last_name }}, University of Wisconsin—Madison &nbsp;&nbsp;&nbsp; {{ site.footer_text }} &nbsp;
-
-        {%- if site.impressum_path -%}
-        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-        {%- endif -%}
-        {%- if site.last_updated -%}
-        Updated: {{ "now" | date: '%b %d, %y' }}
-        
-        {%- endif %}
+        &copy; {{ site.time | date: '%Y' }} M Zamanian
+        &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+        Powered by <a href="https://jekyllrb.com" target="_blank">Jekyll</a> and hosted on <a href="https://pages.github.com" target="_blank">GitHub Pages</a>
+        &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+        Updated: {{ site.time | date: '%m/%d/%y' }}
       </div>
     </footer>
     {%- else -%}
-    
     <footer class="sticky-bottom mt-5">
       <div class="container">
-        &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {{ site.footer_text }}
-        {%- if site.impressum_path -%}
-        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-        {%- endif -%}
-        {%- if site.last_updated -%}
-        Last updated: {{ "now" | date: '%B %d, %Y' }}.
-        {%- endif %}
+        &copy; {{ site.time | date: '%Y' }} M Zamanian
+        &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+        Powered by <a href="https://jekyllrb.com" target="_blank">Jekyll</a> and hosted on <a href="https://pages.github.com" target="_blank">GitHub Pages</a>
+        &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+        Updated: {{ site.time | date: '%m/%d/%y' }}
       </div>
     </footer>
     {%- endif %}

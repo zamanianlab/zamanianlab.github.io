@@ -1,6 +1,6 @@
 ---
 layout: page
-title: services
+title: Services
 permalink: /services/
 description: 
 nav: true
@@ -9,8 +9,6 @@ display_categories: [work, funding]
 horizontal: false
 ---
 
-
-#### Drug screening services
 
 <br>
 <div class="row">
@@ -30,13 +28,5 @@ horizontal: false
 
 <code>Drug target assays</code> We offer additional services to help identify druggable targets and guide structure-activity relationship studies, including procurement or creation of transgenic *C. elegans* strains for comparative phenotypic screening, forward genetic screens to identify mutations that alter drug responses, production of tissues for drug target engagement assays, and other customized deliverables. 
 
-<code>Assay pricing</code> Contact us for assay menus and pricing. Pricing will depend on the method of parasite rearing or procurement, the format of drugs or chemicals provided, or other custom modifications of core pipelines.
-
-In vitro assays:
-- Filarial parasites: *D. immitis* (mf, L3, and L4), *Brugia spp.* (adult males and females) 
-- Gastrointestinal nematodes: *H. contortus* (larval assasys)
-- Model nematodes: *C. elegans*
-
-Inquire for additional information on in vivo anthelmintic efficacy and in vitro ectoparasiticide and larvicide testing.
-
+<code>Assay pricing</code> Contact us for assay menus and pricing. Pricing will depend on the method of parasite rearing or procurement, the format of drugs or chemicals provided, or other custom modifications of core pipelines. In vitro assays are available for filarial parasites (*D. immitis*, *Brugia spp.*), gastrointestinal nematodes (*H. contortus*, *A. caninum*), and model nematodes (*C. elegans*).
 

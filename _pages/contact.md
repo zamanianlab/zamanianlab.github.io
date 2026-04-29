@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /contact/
-title: contact
-description: Materials for courses you taught. Replace this text with your description.
+title: Contact
+description:
 nav: true
 nav_order: 5
 ---
@@ -39,4 +39,4 @@ We are interested in recruiting students and postdocs who share our scientific c
 </div>
 
 ---
-<u>Madison</u>: <a href="https://www.wisc.edu/">UW-Madison</a> is a world class academic institution with an international reputation for basic, applied, and interdisciplinary research. UW-Madison regularly ranks in the <a href="https://ncsesdata.nsf.gov/profiles/site?method=rankingBySource&ds=herd">top 5</a> among U.S. universities in overall research funding, surpassing $1.7 billion in annual research expenditures. The city of Madison provides a vibrant, culturally rich environment <a href="https://www.visitmadison.com/media/rankings/">highly ranked</a> in national surveys for quality of life. Madison is one of only five <a href="https://bikeleague.org/content/new-platinum-new-gold-bicycle-friendly-communities">Platinum-level</a> bicycle friendly communities, boasts an amazing local food scene and the largest producer-only <a href="https://dcfm.org/about">farmers' market</a> in America, and is located on an isthmus and  spread across <a href="https://madison.wisc.edu/">four beautiful lakes</a>. There is no shortage of indoor and outdoor activities to enjoy throughout the year (including the winter!).
+<u>Madison</u>: <a href="https://www.wisc.edu/">UW-Madison</a> is a world class academic institution with an international reputation for basic, applied, and interdisciplinary research. UW-Madison regularly ranks in the <a href="https://ncsesdata.nsf.gov/profiles/site?method=rankingBySource&ds=herd">top 5</a> among U.S. universities in overall research funding, surpassing $1.9 billion in annual research expenditures. The city of Madison provides a vibrant, culturally rich environment <a href="https://www.visitmadison.com/media/rankings/">highly ranked</a> in national surveys for quality of life. Madison is one of only five <a href="https://bikeleague.org/content/new-platinum-new-gold-bicycle-friendly-communities">Platinum-level</a> bicycle friendly communities, boasts an amazing local food scene and the largest producer-only <a href="https://dcfm.org/about">farmers' market</a> in America, and is located on an isthmus and  spread across <a href="https://madison.wisc.edu/">four beautiful lakes</a>. There is no shortage of indoor and outdoor activities to enjoy throughout the year (including the winter!).
