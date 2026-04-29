@@ -1236,5 +1236,35 @@ ul.timeline li::before {
      color: var(--global-text-color);
 }
 */
+.logo-scene {
+  position: relative;
+  text-align: center;
+  margin-top: 0.1rem;
+  display: inline-block;
+  width: 44%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo-img {
+  display: block;
+  width: 100%;
+}
+
+.snake-canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  width: 460px;
+  height: 220px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .snake-canvas {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
