@@ -1,0 +1,35 @@
+// ── Lab Logo Snake Animation ─────────────────────────────────
+// Snakes drawn on a <canvas> by worm-animation.js.
+// This file positions the canvas over the logo.
+
+.logo-scene {
+  position: relative;
+  text-align: center;
+  margin-top: 0.1rem;
+  display: inline-block; // shrink-wrap so centering works with mx-auto
+  width: 44%;            // matches .logo-img width
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo-img {
+  display: block;
+  width: 100%;
+}
+
+// Canvas is centred over the logo via absolute + translate
+.snake-canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  // width/height set by JS for HiDPI; these are the CSS fallback
+  width: 460px;
+  height: 220px;
+}
+
+// Accessibility
+@media (prefers-reduced-motion: reduce) {
+  .snake-canvas { display: none; }
+}
