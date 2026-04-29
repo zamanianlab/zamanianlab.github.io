@@ -54,26 +54,6 @@ body.sticky-bottom-footer {
  * Landing page — lab news feed
  ******************************************************************************/
 
-.logo-worm-wrap {
-  position: relative;
-  width: 44%;
-  margin: -0.6rem auto 0;
-  overflow: visible;
-
-  canvas {
-    position: absolute;
-    top: 0;
-    left: -25%;
-    width: 150%;
-    height: 100%;
-    cursor: none;
-  }
-
-  img {
-    display: block;
-    width: 100%;
-  }
-}
 
 .lab-news {
   height: 100%;
