@@ -180,7 +180,7 @@ body.sticky-bottom-footer {
   width: 60%;
   max-width: 143px;
   height: auto;
-  opacity: 0.85;
+  opacity: 0.68;
   transition: opacity 0.2s;
 }
 .album-panel-icon:hover {
@@ -200,7 +200,6 @@ body.sticky-bottom-footer {
 .gallery-item {
   overflow: hidden;
   border-radius: 0.4rem;
-  border: 1.5px solid var(--global-theme-color);
   position: relative;
   cursor: pointer;
 }
@@ -220,14 +219,17 @@ body.sticky-bottom-footer {
   transform: scale(1.04);
 }
 
-.gallery-caption {
-  display: block;
-  padding: 0.3rem 0.5rem;
-  font-size: 0.82rem;
-  font-weight: 600;
-  color: var(--global-text-color-light);
-  background: var(--global-bg-color);
-  text-align: center;
+.gallery-year {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  background: rgba(255, 255, 255, 0.72);
+  color: #111;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.15rem 0.4rem;
+  border-radius: 0.2rem;
+  pointer-events: none;
 }
 
 .gallery-lightbox {
