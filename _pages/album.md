@@ -20,8 +20,8 @@ nav: false
     <div class="gallery-item">
       <a href="#gallery-{{ forloop.index }}" class="gallery-thumb">
         <img src="{{ image.path | relative_url }}" alt="{{ year }}">
-        <span class="gallery-caption">{{ year }}</span>
       </a>
+      <span class="gallery-year">{{ year }}</span>
     </div>
 
     <div id="gallery-{{ forloop.index }}" class="gallery-lightbox" role="dialog">
