@@ -5,11 +5,8 @@
 .logo-scene {
   position: relative;
   text-align: center;
-  margin-top: 0.1rem;
-  display: inline-block; // shrink-wrap so centering works with mx-auto
-  width: 44%;            // matches .logo-img width
-  left: 50%;
-  transform: translateX(-50%);
+  display: inline-block;
+  width: 44%;
 }
 
 .logo-img {

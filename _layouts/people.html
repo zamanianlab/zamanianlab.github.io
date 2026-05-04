@@ -7,7 +7,9 @@ layout: default
       {% for entry in site.data.people %}
         <a class="anchor" id="{{ entry.title }}"></a>
         <div class="card mt-3 p-3">
-          <h3 class="card-title font-weight-medium" style="font-size: 80%;">{{ entry.title }}</h3>
+          {% if entry.title %}
+            <h3 class="card-title font-weight-medium" style="font-size: 80%;">{{ entry.title }}</h3>
+          {% endif %}
           <div>
           {% if entry.type == "list" %}
             {% include people/list.html %}

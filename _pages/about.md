@@ -7,9 +7,15 @@ permalink: /
 <div class="row align-items-start mt-2 mb-4">
   <div class="col-sm-7">
     <p>We are a research lab in the Department of Pathobiological Sciences at the <a href="http://www.wisc.edu">University of Wisconsin—Madison</a>. We pair experimental and computational approaches to study neglected parasitic diseases and host-pathogen interactions, with the goal of identifying molecular drivers of successful infection. Our mission is to illuminate the biology of these complex pathogens, advance human and animal health through new therapeutics, and facilitate the training of scientists at every career stage.</p>
-    <div class="logo-scene">
-      <img class="logo-img" src="assets/img/lab-logo.png" alt="Zamanian Lab logo">
-      <canvas class="snake-canvas" aria-hidden="true"></canvas>
+    <div class="d-flex align-items-center justify-content-center mt-2" style="gap: 2.65rem;">
+      <div class="logo-scene">
+        <img class="logo-img" src="assets/img/lab-logo.png" alt="Zamanian Lab logo">
+        <canvas class="snake-canvas" aria-hidden="true"></canvas>
+      </div>
+      <a href="{{ '/album/' | relative_url }}" class="album-panel-link">
+        <span class="album-panel-label">Lab Album</span>
+        <img src="{{ '/assets/img/gallery/album_icon.png' | relative_url }}" alt="Lab Album" class="album-panel-icon">
+      </a>
     </div>
     <script src="{{ '/assets/js/worm-animation.js' | relative_url }}" defer></script>
   </div>
