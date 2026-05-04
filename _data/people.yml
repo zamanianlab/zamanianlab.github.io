@@ -126,11 +126,6 @@
 - title: Undergraduates
   type: time_table
   contents:
-    - title: Greta Hiltgen
-      location: Appleton, WI
-      year: 2023 - 
-      program: Biology
-      portrait: ghiltgen.jpg
       
     - title: Sal Singh
       location: Bangalore, India
@@ -210,6 +205,9 @@
 - title: "Alumni: Undergrads"
   type: time_table
   contents:
+    - title: Greta Hiltgen
+      year: 2023 - 2026
+      program:      
     - title: Benjamin Lee
       year: 2024 - 2026
       program: 
