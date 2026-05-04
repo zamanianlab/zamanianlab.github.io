@@ -21,10 +21,9 @@
   // ── Config ──────────────────────────────────────────────
   var SEG_COUNT   = 20;
   var SEG_GAP     = 7;
-  var SPEED       = 1.36;
+  var SPEED       = 0.93;
   var TURN_MAX    = 0.11;
-  var BOUNDS_X    = 200;   // elliptical roam: ±200 px horizontal
-  var BOUNDS_Y    = 88;    //                  ±88 px vertical
+  var BOUNDS_Y    = 88;    // ±88 px vertical
   var MOLT_FRAMES = 300;   // frames per stage (~5 s @ 60 fps)
   var DEAD_PAUSE  = 110;   // frames before respawn after kill-zone death
 
@@ -33,8 +32,7 @@
   var SEG_VIS = [8, 11, 14, 17, 20];
 
   // ── Kill zone: top-right corner of logo ─────────────────
-  // Computed from the live logo element (right 1/4 width × top 1/4 height)
-  var KILL_X = 57, KILL_Y = -43;   // px from canvas centre, fallback values
+  var KILL_X = 57, KILL_Y = -43;
   (function () {
     var logo = document.querySelector('.logo-img');
     if (logo && logo.offsetWidth > 0) {
@@ -43,16 +41,28 @@
     }
   }());
 
+  // ── Roam bounds — symmetric ellipse, sized to keep snakes clear of album icon
+  var BOUNDS_X = 140;  // fallback
+
+  (function () {
+    var logo  = document.querySelector('.logo-img');
+    var album = document.querySelector('.album-panel-link');
+    if (!logo || logo.offsetWidth === 0 || !album) return;
+    var logoRect  = logo.getBoundingClientRect();
+    var logoCX    = logoRect.left + logoRect.width / 2;
+    var albumRect = album.getBoundingClientRect();
+    BOUNDS_X = Math.min(albumRect.left - logoCX - 20, CX - 15);
+  }());
+
   // ── Effect pools ────────────────────────────────────────
-  var bursts    = [];   // molt rings
-  var particles = [];   // kill-zone fireworks
+  var bursts    = [];
+  var particles = [];
 
   function fireMoltRing(x, y, color) {
     bursts.push({ x: x, y: y, color: color, r: 3, alpha: 1.0 });
   }
 
   function fireFirework(x, y) {
-    // 3 particles per stage colour (all past colours mixed)
     for (var ci = 0; ci < COLORS.length; ci++) {
       for (var j = 0; j < 3; j++) {
         var angle = rand(0, Math.PI * 2);
@@ -73,8 +83,10 @@
   // ── Helpers ─────────────────────────────────────────────
   function rand(lo, hi) { return lo + Math.random() * (hi - lo); }
 
+  function spawnX() { return rand(-BOUNDS_X * 0.6, BOUNDS_X * 0.6); }
+
   function makeSnake(delayFrames) {
-    var sx = rand(-120, 120), sy = rand(-50, 50);
+    var sx = spawnX(), sy = rand(-50, 50);
     var segs = [];
     for (var i = 0; i < SEG_COUNT; i++) segs.push({ x: sx, y: sy });
     return {
@@ -120,7 +132,7 @@
       ctx.fill();
       p.x  += p.vx;
       p.y  += p.vy;
-      p.vy += 0.06;   // slight gravity
+      p.vy += 0.06;
       p.r  *= 0.97;
       p.alpha -= p.decay;
       if (p.alpha <= 0) particles.splice(pi, 1);
@@ -137,7 +149,7 @@
       if (!s.alive) {
         s.deadFrames++;
         if (s.deadFrames >= DEAD_PAUSE) {
-          s.x = rand(-120, 120);
+          s.x = spawnX();
           s.y = rand(-50, 50);
           s.angle = rand(0, Math.PI * 2);
           s.stage = 0; s.stageFrames = 0;
@@ -150,7 +162,7 @@
         continue;
       }
 
-      // Steering
+      // Steering — symmetric ellipse
       s.angle += rand(-TURN_MAX, TURN_MAX);
       var ex = s.x / BOUNDS_X, ey = s.y / BOUNDS_Y;
       if (ex * ex + ey * ey > 1) {
@@ -182,7 +194,7 @@
       var vis   = SEG_VIS[s.stage];
       for (var i = vis - 1; i >= 0; i--) {
         var seg = s.segs[i];
-        var r   = Math.max(1.08, 4.05 - i * (2.97 / (SEG_COUNT - 1)));
+        var r   = Math.max(0.97, 3.64 - i * (2.67 / (SEG_COUNT - 1)));
         ctx.beginPath();
         ctx.arc(CX + seg.x, CY + seg.y, r, 0, Math.PI * 2);
         ctx.fillStyle   = color;
@@ -200,7 +212,7 @@
         continue;
       }
 
-      // Molt timer — no auto-death in final stage, snake just keeps roaming
+      // Molt timer
       s.stageFrames++;
       if (s.stageFrames >= MOLT_FRAMES && s.stage < COLORS.length - 1) {
         fireMoltRing(s.x, s.y, color);
