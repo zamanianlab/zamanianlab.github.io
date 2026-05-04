@@ -1,7 +1,7 @@
 <div class="list-groups">
   {% for content in entry.contents %}
   <div class="list-group col-md-6">
-    <table class="table-cv list-group-table">
+    <table class="table-people list-group-table">
       <tbody>
         <tr>
           {% if content.icon %}
@@ -32,7 +32,7 @@
           </td>
           {% endif %}
           {% if item.link %}
-          <td class="list-group-link"><a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">{% if item.linkname %}{{ item.linkname }}{% else %}DOC{% endif %}</a></td>
+          <td class="list-group-link"><a href="{{ item.link }}" target="_blank" class="btnpeople z-depth-0">{% if item.linkname %}{{ item.linkname }}{% else %}DOC{% endif %}</a></td>
           {% endif %}
         </tr>
         {% endfor %}

@@ -3,22 +3,22 @@ layout: default
 ---
 <div class="post">
   <article>
-    <div class="cv">
+    <div class="people">
       {% for entry in site.data.people %}
         <a class="anchor" id="{{ entry.title }}"></a>
         <div class="card mt-3 p-3">
           <h3 class="card-title font-weight-medium" style="font-size: 80%;">{{ entry.title }}</h3>
           <div>
           {% if entry.type == "list" %}
-            {% include cv/list.html %}
+            {% include people/list.html %}
           {% elsif entry.type == "map" %}
-            {% include cv/map.html %}
+            {% include people/map.html %}
           {% elsif entry.type == "nested_list" %}
-            {% include cv/nested_list.html %}
+            {% include people/nested_list.html %}
           {% elsif entry.type == "time_table" %}
-            {% include cv/time_table.html %}
+            {% include people/time_table.html %}
           {% elsif entry.type == "list_groups" %}
-            {% include cv/list_groups.html %}
+            {% include people/list_groups.html %}
           {% else %}
             {{ entry.contents }}
           {% endif %}

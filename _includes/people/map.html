@@ -1,4 +1,4 @@
-<table class="table table-cv table-sm table-borderless table-responsive">
+<table class="table table-people table-sm table-borderless table-responsive">
     {% for content in entry.contents %}
       <tr>
         <td class="p-1 pr-2 font-weight-bold"><b>{{ content.name }}</b></td>
@@ -12,9 +12,9 @@
               {% if item.link %}
                 <div class="container-link-button">
                   {% if item.name %}
-                    <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">{{ item.name}}</a>
+                    <a href="{{ item.link }}" target="_blank" class="btnpeople z-depth-0">{{ item.name}}</a>
                   {% else %}
-                    <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">doc</a>
+                    <a href="{{ item.link }}" target="_blank" class="btnpeople z-depth-0">doc</a>
                   {% endif %}
                 </div>
               {% endif %}

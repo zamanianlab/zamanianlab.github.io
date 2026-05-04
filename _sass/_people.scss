@@ -1,16 +1,16 @@
 /*****************************
- * CV shared styles
+ * People shared styles
  *****************************/
 
 div.container-link-button {
   margin-right: 0.5rem;
 }
 
-table.table-cv {
+table.table-people {
   background-color: transparent !important;
 }
 
-a.btncv {
+a.btnpeople {
   color: var(--global-text-color) !important;
   border: 1px solid var(--global-text-color) !important;
   border-radius: 0.125rem;
@@ -27,14 +27,14 @@ a.btncv {
   white-space: nowrap;
 }
 
-a.btncv:hover {
+a.btnpeople:hover {
   color: var(--global-theme-color) !important;
   border-color: var(--global-theme-color) !important;
   text-decoration: none !important;
 }
 
 /*****************************
- * CV TIME_TABLE styles
+ * People TIME_TABLE styles
  *****************************/
 
 p.location {
@@ -78,7 +78,7 @@ div.container-links {
 }
 
 /*****************************
- * CV MAP styles
+ * People MAP styles
  *****************************/
 
 div.container-pdf {
@@ -90,7 +90,7 @@ div.container-pdf {
 }
 
 /*****************************
- * CV LIST_GROUPS styles
+ * People LIST_GROUPS styles
  *****************************/
 
 div.list-groups {
@@ -146,7 +146,7 @@ td.list-group-link {
 }
 
 /*****************************
- * CV TOC styles
+ * People TOC styles
  *****************************/
 
 a.anchor {

@@ -4,7 +4,7 @@
         <div class="row">
           {% if content.year %}
             <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 90px;">
-              <table class="table-cv">
+              <table class="table-people">
                 <tbody>
                   <!-- MZ add profile photos -->
                   <tr>
@@ -38,7 +38,7 @@
             <h6 class="title ml-1 ml-md-2" style="font-weight: 400">{{content.title}}</h6> <!-- MZ font-weight-bold -> font-weight: 400 in class-->
             {% endif %}
             {% if content.program or content.position %}
-            <table class="table-cv ml-1 ml-md-2 institution">
+            <table class="table-people ml-1 ml-md-2 institution">
             <tbody>
               {% if content.position %}
               <tr>
@@ -125,9 +125,9 @@
                   {% if item.link %}
                     <div class="container-link-button">
                       {% if item.linkname %}
-                        <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">{{ item.linkname}}</a>
+                        <a href="{{ item.link }}" target="_blank" class="btnpeople z-depth-0">{{ item.linkname}}</a>
                       {% else %}
-                        <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">doc</a>
+                        <a href="{{ item.link }}" target="_blank" class="btnpeople z-depth-0">doc</a>
                       {% endif %}
                     </div>
                   {% endif %}
