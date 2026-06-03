@@ -8,6 +8,7 @@ GEM
       latex-decode (~> 0.0)
       logger (~> 1.7)
       racc (~> 1.7)
+    bigdecimal (4.1.2)
     citeproc (1.1.0)
       date
       forwardable
@@ -139,6 +140,7 @@ PLATFORMS
   x86_64-darwin
 
 DEPENDENCIES
+  bigdecimal
   jekyll
   jekyll-email-protect
   jekyll-imagemagick
