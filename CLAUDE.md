@@ -28,6 +28,7 @@ Standard Jekyll layout with a few non-obvious pieces:
 - **Styling:** `assets/css/main.scss` is the single SCSS entry point and `@import`s the partials under `_sass/`. There's no PostCSS/webpack — Jekyll's built-in Sass converter handles it.
 - **`assets/js/worm-animation.js`** is a self-contained canvas animation tied to `.snake-canvas` / `.logo-scene` in `_pages/about.md`; it respects `prefers-reduced-motion`. Tweak constants at the top of the file (SEG_COUNT, SPEED, BOUNDS_Y, MOLT_FRAMES) rather than restructuring.
 - **`assets/pdf_jpg.sh`** is a manual helper (Ghostscript) to generate JPEG previews of publication PDFs into `assets/img/publication_preview/`. Run it from `assets/` when adding new PDFs whose bib entry uses a `preview:` filename.
+- **`assets/portrait_crop.sh`** is a manual helper (ImageMagick) to apply the standard people-page portrait style (centered circular mask, white margin, soft drop shadow, 420×440 JPEG). Use it whenever a new headshot is added to `assets/img/people/`. `./portrait_crop.sh photo.jpg` processes in place and preserves the unprocessed source as `photo.orig` so reruns are idempotent; `./portrait_crop.sh raw.jpg out.jpg` writes a new file. Pipeline matches the framing of e.g. `jhendershot.jpg` / `rpifher.jpg`.
 
 ## Conventions worth knowing
 
