@@ -63,7 +63,20 @@
       github: lrnunn
       cv_url:
       portrait: lnunn.jpg
-      description: 
+      description:
+
+    - title: Morgan Beckmann
+      position: Research Intern
+      program:
+      location: Sun Prairie, WI
+      year: 2026 -
+      email: mmbeckmann@wisc.edu
+      gscholar:
+      orcid:
+      github:
+      cv_url:
+      portrait: mbeckmann.jpg
+      description:
 
 # GS AND PD
 - title: Grad Students & PDs
