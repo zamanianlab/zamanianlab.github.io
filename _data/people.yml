@@ -83,10 +83,10 @@
   type: time_table
   contents:
     - title: Katie Ryan
-      position: PhD Student
-      program: CMP
+      position: Postdoctoral Associate
+      program:
       location: Wake Forest, NC
-      year: 2020 - 
+      year: 2026 -
       email: ktryan2@wisc.edu
       gscholar: xHLAYTIAAAAJ
       orcid: 0000-0002-2051-7969
@@ -152,12 +152,6 @@
       program: Biology
       portrait: 
 
-    - title: Jordan Hendershot
-      location: Las Vegas, NV
-      year: 2026 -
-      program: Genetics and Genomics
-      portrait: jhendershot.jpg
-
     - title: Ryan Pifher
       location: Brookfield, WI
       year: 2026 -
@@ -169,6 +163,11 @@
 - title: "Alumni: Trainees"
   type: time_table
   contents:
+      - title: Katie Ryan
+        year: 2020 - 2026
+        program: Postdoctoral Associate, UW-Madison
+        position: CMP PhD
+        portrait:
       - title: Cole Knuese
         year: 2024 - 2026
         program: 
